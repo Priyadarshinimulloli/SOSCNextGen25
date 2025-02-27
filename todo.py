@@ -1,9 +1,9 @@
-tasks = []
+tasks = [ ]
 
 
 def add_task(task):
-    tasks = task
-    print(f"Task '{task}' added!")
+     tasks.append(task)
+     print(f"Task '{task}' added!")
 
 
 def show_tasks():
